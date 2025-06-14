@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>I Geek Studios - Loja Oficial</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: url('gamer-bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+    header {
+      background-color: #000000cc;
+      padding: 1rem;
+      text-align: center;
+      border-bottom: 3px solid yellow;
+    }
+    header img {
+      height: 80px;
+    }
+    header h1 {
+      margin: 0.5rem 0 0;
+      color: yellow;
+    }
+    nav {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: yellow;
+    }
+    section {
+      padding: 2rem;
+      background-color: #000000c0;
+      margin: 1rem;
+      border-radius: 10px;
+    }
+    h2 {
+      border-bottom: 2px solid yellow;
+      padding-bottom: 0.5rem;
+    }
+    .produtos {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .produto {
+      background-color: #222;
+      border: 2px solid yellow;
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+      width: 250px;
+    }
+    .produto img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .botao {
+      background-color: yellow;
+      color: black;
+      padding: 0.5rem 1rem;
+      margin-top: 1rem;
+      display: inline-block;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    footer {
+      background-color: #111;
+      color: #bbb;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo I Geek Studios" />
+    <h1>Loja oficial da I Geek Studios<br><small>Mude o jogo da sua decoração</small></h1>
+  </header>
+
+  <nav>
+    <a href="#produtos">Produtos</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#comprar">Como Comprar</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="produtos">
+    <h2>🧩 Produtos / Catálogo</h2>
+    <p>Confira nossos produtos exclusivos de decoração geek e colecionáveis.</p>
+    <div class="produtos">
+      <div class="produto">
+        <img src="produto1.jpg" alt="Produto 1" />
+        <h3>Produto 1</h3>
+        <a class="botao" href="#">Ver mais</a>
+      </div>
+      <div class="produto">
+        <img src="produto2.jpg" alt="Produto 2" />
+        <h3>Produto 2</h3>
+        <a class="botao" href="#">Ver mais</a>
+      </div>
+      <div class="produto">
+        <img src="produto3.jpg" alt="Produto 3" />
+        <h3>Produto 3</h3>
+        <a class="botao" href="#">Ver mais</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2>🧙 Sobre a I Geek Studios</h2>
+    <p>A I Geek Studios nasceu da paixão pelo universo geek, games, filmes e tudo que inspira criatividade. Criamos itens decorativos únicos para quem quer expressar sua personalidade em cada detalhe do ambiente.</p>
+    <p>Nossos produtos são pensados para fãs, por fãs — com qualidade, estilo e aquele toque especial que só um geek de verdade reconhece.</p>
+  </section>
+
+  <section id="comprar">
+    <h2>📦 Como Comprar</h2>
+    <ul>
+      <li>🛒 Use o portal da Shopee ou o grimório do Mercado Livre</li>
+      <li>💬 Ou convoque nosso suporte via mensagem direta no Instagram</li>
+      <li>🚚 Frete rápido, bem embalado e com XP de carinho. Envio de 2 a 7 dias úteis</li>
+    </ul>
+  </section>
+
+  <section id="contato">
+    <h2>📞 Contato</h2>
+    <p>Para mensagens, bugs ou alianças estratégicas:</p>
+    <p>📲 WhatsApp | 🕸️ Instagram | ✉️ Envie um corvo digital (email opcional)</p>
+  </section>
+
+  <footer>
+    © 2025 I Geek Studios - Todos os direitos reservados.
+  </footer>
+</body>
+</html>
